@@ -4,11 +4,10 @@ title: "UNED"
 permalink: /uned/
 ---
 
-# UNED Lecture Notes
+# Apuntes UNED - Economía
 
 <p>
-  These are lecture notes I’ve written while studying Economics at UNED.
-  They may contain mistakes and are a work in progress.
+  Aquí se muestra un compendio de apuntes realizados entre 2022 y 2025 para la carrera de Economía en la UNED. Algunos apuntes son a mano, mientras que otros están hechos con Google docs. Todos los (inevitables) errores son atribuibles a mí únicamente. Además, algunas imágenes han sido sacadas de los libros incluidos en la biografía básica de su correspondiente asignatura. 
 </p>
 
 <style>
