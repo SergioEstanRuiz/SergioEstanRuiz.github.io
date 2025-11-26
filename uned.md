@@ -53,8 +53,15 @@ permalink: /uned/
       <h2>{{ year | replace: 'year', 'Year ' }}</h2>
       <div class="uned-grid">
         {% for note in notes_for_year %}
+          {% assign display_name = note.name | split: '.' | first %}
+          {% assign display_name = display_name
+            | replace: '- ', ' '
+            | replace: '-', ' '
+            | replace: '_', ' '
+            | replace: '  ', ' '
+            | strip %}
           <a class="uned-card" href="{{ note.path | relative_url }}" target="_blank" rel="noopener">
-            <div class="uned-card-title">{{ note.name | split: '.' | first | replace: '-', ' ' | replace: '_', ' ' }}</div>
+            <div class="uned-card-title">{{ display_name }}</div>
             <div class="uned-card-meta">PDF - {{ note.modified_time | date: "%Y-%m-%d" }}</div>
           </a>
         {% endfor %}
