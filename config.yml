@@ -1,0 +1,21 @@
+title: "Sergio Estañ Ruiz"
+description: "PhD student in Statistics & ML for Public Policy"
+url: "https://SergioEstanRuiz.github.io"
+baseurl: ""   # for user/organisation sites this stays empty
+
+theme: minima  # simplest option; you can customise later
+
+# Which pages appear in the top navigation (minima uses this)
+header_pages:
+  # - research.md
+  - projects.md
+  - teaching.md
+  - uned.md
+  # - blog.md
+
+markdown: kramdown
+
+# Optional: basic info
+author:
+  name: "Sergio Estan Ruiz"
+  email: "s.estan-ruiz24@imperial.ac.uk"
