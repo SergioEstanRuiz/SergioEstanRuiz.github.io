@@ -4,7 +4,7 @@
   label: "Primero de Carrera"
   notes:
     - title: "Fundamentos de la UE"
-      file: "/assets/uned_pdfs/year1/Apuntas Fundamentos de la UE.pdf"
+      file: "/assets/uned_pdfs/year1/Apuntes Fundamentos de la UE.pdf"
     - title: "Historia Económica de España"
       file: "/assets/uned_pdfs/year1/Apuntes Historia Económica de España.pdf"
     - title: "Introducción a la Macroeconomía"
@@ -23,7 +23,7 @@
       file: "/assets/uned_pdfs/year2/Apuntes Microeconomía Consumo.pdf"
     - title: "Organismos Económicos Internacionales"
       file: "/assets/uned_pdfs/year2/Apuntes Organismos Internacionales.pdf"
-    - title: "Economía de la Empresa: Inversión y Financiación" "
+    - title: "Economía de la Empresa: Inversión y Financiación"
       file: "/assets/uned_pdfs/year2/Inversión- segundo.pdf"
 
 - year: 3
