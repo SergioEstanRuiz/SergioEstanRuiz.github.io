@@ -4,8 +4,6 @@ title: "Projects"
 permalink: /projects/
 ---
 
-# Projects
-
 ## Applied projects
 
 - **Graph-based time-series forecasting**  

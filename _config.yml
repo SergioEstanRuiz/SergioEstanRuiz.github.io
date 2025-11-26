@@ -1,4 +1,4 @@
-title: "Sergio Estañ Ruiz"
+﻿title: "Sergio Estan Ruiz"
 description: "PhD student in Statistics & ML for Public Policy"
 url: "https://SergioEstanRuiz.github.io"
 baseurl: ""   # for user/organisation sites this stays empty
@@ -11,7 +11,7 @@ header_pages:
   - projects.md
   - teaching.md
   - uned.md
-  # - blog.md
+  - blog.md
 
 markdown: kramdown
 

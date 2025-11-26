@@ -4,8 +4,6 @@ title: "Teaching"
 permalink: /teaching/
 ---
 
-# Teaching
-
 ## Imperial College London
 
 - **Linear Algebra (2024)**
