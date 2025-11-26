@@ -4,8 +4,6 @@ title: "Talks"
 permalink: /talks/
 ---
 
-# Talks
-
 <style>
 .talks-intro {
   max-width: 720px;
