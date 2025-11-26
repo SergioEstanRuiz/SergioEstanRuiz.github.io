@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "Some thoughts on Local Learning Coefficient and Grokking"
+title: "Some thoughts on Singular Learning Theory"
 date: 2025-11-26
-thumbnail: /assets/log/EncoderDecoderArchitecture.png
+thumbnail: /assets/blog/EncoderDecoderArchitecture.png
 ---
 
-Here you write the post in Markdown. You can embed equations, code,
-figures, whatever.
-
-Jekyll will render all posts and make them accessible via `/year/month/day/title.html`.
+Hi there! Sorry, this is actually still a test, but I will very soon write a blog about the wonders of Singular Learning Theory! 
