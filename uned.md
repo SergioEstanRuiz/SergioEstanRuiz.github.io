@@ -13,11 +13,11 @@ permalink: /uned/
 
 {% for year in site.data.uned %}
   <h2>{{ year.label }}</h2>
-  <div class="uned-grid">
+  <div class="card-grid">
     {% for note in year.notes %}
-      <a class="uned-card" href="{{ note.file | relative_url }}" target="_blank" rel="noopener">
-        <div class="uned-card-title">{{ note.title }}</div>
-        <div class="uned-card-meta">PDF</div>
+      <a class="card" href="{{ note.file | relative_url }}" target="_blank" rel="noopener">
+        <div class="card-title">{{ note.title }}</div>
+        <div class="card-meta">PDF</div>
       </a>
     {% endfor %}
   </div>
