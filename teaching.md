@@ -13,7 +13,7 @@ permalink: /teaching/
 - I have also contributed to the assessment of **Fundamentals of Statistical Inference** in 2025.
 
 
-## Cambridge University
+## University of Cambridge
 
 - **Variational Principles 1B (2023)**
 - **Linear Algebra 1B (2023)**
