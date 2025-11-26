@@ -11,7 +11,7 @@ permalink: /uned/
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
   gap: 20px;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .uned-card {
@@ -42,17 +42,25 @@ permalink: /uned/
 }
 </style>
 
+{% assign year_labels = "year1,year2,year3,year4" | split: "," %}
 {% assign uned_notes = site.static_files | where_exp: "file", "file.path contains '/assets/uned_pdfs/'" | sort: "name" %}
 
 {% if uned_notes.size > 0 %}
-<div class="uned-grid">
-  {% for note in uned_notes %}
-    <a class="uned-card" href="{{ note.path | relative_url }}" target="_blank" rel="noopener">
-      <div class="uned-card-title">{{ note.name | split: '.' | first | replace: '-', ' ' | replace: '_', ' ' }}</div>
-      <div class="uned-card-meta">PDF - {{ note.modified_time | date: "%Y-%m-%d" }}</div>
-    </a>
+  {% for year in year_labels %}
+    {% assign prefix = '/assets/uned_pdfs/' | append: year | append: '/' %}
+    {% assign notes_for_year = uned_notes | where_exp: "file", "file.path contains prefix" %}
+    {% if notes_for_year.size > 0 %}
+      <h2>{{ year | replace: 'year', 'Year ' }}</h2>
+      <div class="uned-grid">
+        {% for note in notes_for_year %}
+          <a class="uned-card" href="{{ note.path | relative_url }}" target="_blank" rel="noopener">
+            <div class="uned-card-title">{{ note.name | split: '.' | first | replace: '-', ' ' | replace: '_', ' ' }}</div>
+            <div class="uned-card-meta">PDF - {{ note.modified_time | date: "%Y-%m-%d" }}</div>
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
   {% endfor %}
-</div>
 {% else %}
 <p>No lecture notes found in assets/uned_pdfs.</p>
 {% endif %}
