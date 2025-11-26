@@ -1,0 +1,57 @@
+# _data/uned.yml
+
+- year: 1
+  label: "Year 1"
+  notes:
+    - title: "Apuntas Fundamentos de la UE"
+      file: "/assets/uned_pdfs/year1/Apuntas Fundamentos de la UE.pdf"
+    - title: "Apuntes Historia Económica de España"
+      file: "/assets/uned_pdfs/year1/Apuntes Historia Económica de España.pdf"
+    - title: "Apuntes de Introducción a la Macroeconomía"
+      file: "/assets/uned_pdfs/year1/Apuntes de Introducción a la Macroeconomía.pdf"
+    - title: "Estadística (primero)"
+      file: "/assets/uned_pdfs/year1/Estadística- primero.pdf"
+    - title: "Microeconomía (primero)"
+      file: "/assets/uned_pdfs/year1/Microeconomía- primero.pdf"
+
+- year: 2
+  label: "Year 2"
+  notes:
+    - title: "Apuntes Macroeconomía II"
+      file: "/assets/uned_pdfs/year2/Apuntes Macroeconomía II.pdf"
+    - title: "Apuntes Microeconomía Consumo"
+      file: "/assets/uned_pdfs/year2/Apuntes Microeconomía Consumo.pdf"
+    - title: "Apuntes Organismos Internacionales"
+      file: "/assets/uned_pdfs/year2/Apuntes Organismos Internacionales.pdf"
+    - title: "Inversión (segundo)"
+      file: "/assets/uned_pdfs/year2/Inversión- segundo.pdf"
+
+- year: 3
+  label: "Year 3"
+  notes:
+    - title: "Econometría (tercero)"
+      file: "/assets/uned_pdfs/year3/Econometría- tercero.pdf"
+    - title: "Inferencia (tercero)"
+      file: "/assets/uned_pdfs/year3/Inferencia- tercero.pdf"
+    - title: "Instrumentos (tercero)"
+      file: "/assets/uned_pdfs/year3/Instrumentos- tercero.pdf"
+    - title: "Intro econometría (tercero)"
+      file: "/assets/uned_pdfs/year3/Intro econometría- tercero.pdf"
+    - title: "Macroeconomía III: Oferta agregada"
+      file: "/assets/uned_pdfs/year3/Macroeconomía III_ Oferta agregada.pdf"
+    - title: "Microeconomía: Producción y Mercados"
+      file: "/assets/uned_pdfs/year3/Microeconomía_ Producción y Mercados.pdf"
+    - title: "Políticas públicas (tercero)"
+      file: "/assets/uned_pdfs/year3/Políticas públicas- tercero.pdf"
+    - title: "Sistema Financiero (Apuntes)"
+      file: "/assets/uned_pdfs/year3/Sistema Financiero- Apuntes.pdf"
+
+- year: 4
+  label: "Year 4"
+  notes:
+    - title: "Historia del Pensamiento Económico"
+      file: "/assets/uned_pdfs/year4/Historia del Pensamiento Económico.pdf"
+    - title: "Presupuestos y Gasto Público en España"
+      file: "/assets/uned_pdfs/year4/Presupuestos y Gasto Público en España.pdf"
+    - title: "Microeconomía IV (cuarto)"
+      file: "/assets/uned_pdfs/year4/microeconomía IV- cuarto.pdf"
