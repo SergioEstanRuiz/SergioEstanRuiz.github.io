@@ -9,9 +9,11 @@ theme: minima  # simplest option; you can customise later
 header_pages:
   # - research.md
   - projects.md
+  - talks.md
   - teaching.md
   - uned.md
   - blog.md
+
 
 markdown: kramdown
 
