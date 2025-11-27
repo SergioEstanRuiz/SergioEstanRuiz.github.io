@@ -7,7 +7,7 @@ permalink: /uned/
 # Apuntes UNED - Economía
 
 <p>
-  Aquí se muestra un compendio de apuntes realizados entre 2022 y 2025 para la carrera de Economía en la UNED. Algunos apuntes son a mano, mientras que otros están hechos con Google docs. Todos los (inevitables) errores son atribuibles a mí únicamente. Además, algunas imágenes han sido sacadas de los libros incluidos en la biografía básica de su correspondiente asignatura. Espero que esta pequeña contribución sirva para avanzar la democratización del acceso a la educación al minimizar la penalización que sufren algunos estudiantes que no pueden permitirse los costos y numerosos libros de texto. Pero también espero que simplemente facilite la comprensión de las asignaturas para las cuales hice apuntes.
+  Aquí se muestra un compendio de apuntes realizados entre 2022 y 2025 para la carrera de Economía en la UNED. Algunos apuntes son a mano, mientras que otros están hechos con Google docs. Todos los (inevitables) errores son atribuibles a mí únicamente. Además, algunas imágenes han sido sacadas de los libros incluidos en la biografía básica de su correspondiente asignatura. Espero que esta pequeña contribución sirva para avanzar la democratización del acceso a la educación al minimizar la penalización que sufren algunos estudiantes que no pueden permitirse los costosos y numerosos libros de texto. Pero también espero que simplemente facilite la comprensión de las asignaturas para las cuales hice apuntes.
 </p>
 
 <style>
