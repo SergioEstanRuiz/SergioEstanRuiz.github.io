@@ -81,12 +81,35 @@ permalink: /talks/
 <div class="talk-list">
 
   <div class="talk-card">
+    <div class="talk-title">Advanced composition theorems in Differential Privacy</div>
+    <div class="talk-meta">
+      Reading Club · Online · UK-based · November 2025
+    </div>
+    <p class="talk-description">
+      I presented two times in Professor Gesine's reading club on Differentially Private. I talked about types of composition theorems of differentially private mechanisms, and about the Sparse Vector Technique.
+    </p>
+    <div class="talk-links">
+    <a href="/assets/talks/Differential_privacy.pdf" target="_blank">Slides</a>
+    </div>
+  </div>
+
+  <div class="talk-card">
     <div class="talk-title">Using deep learning to infer graph structures in multivariate time series</div>
     <div class="talk-meta">
       NeST Annual Meeting · Bath University · Bath, UK · October 2025
     </div>
     <p class="talk-description">
       I gave a talk about how to apply models based on the attention mechanism to infer latent graph structures of multivariate time series data and how to use to improve forecasts made by graph-based models. 
+    </p>
+  </div>
+
+  <div class="talk-card">
+    <div class="talk-title">Genetic algorithms for graph selection in graph-based time series models</div>
+    <div class="talk-meta">
+     Research Students’ Conference in Probability and Statistics · University of Glasgow · Glasgow, UK · August 2025
+    </div>
+    <p class="talk-description">
+      I gave a talk about how to apply a genetic algorithm to select graphs for graph-based time series models, and how this can improve downstream forecasting.
     </p>
   </div>
 
