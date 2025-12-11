@@ -86,7 +86,7 @@ permalink: /talks/
       Reading Club · Online · UK-based · November 2025
     </div>
     <p class="talk-description">
-      I presented two times in Professor Gesine's reading club on Differentially Private. I talked about types of composition theorems of differentially private mechanisms, and about the Sparse Vector Technique.
+      I presented two times in (Professor Gesine's)[https://www.stats.ox.ac.uk/~reinert/] reading club on Differentially Private. I talked about types of composition theorems of differentially private mechanisms, and about the Sparse Vector Technique. The presentation below was done with [Dr. Leoni Carla Wirth](https://www.leonicarlawirth.org/).
     </p>
     <div class="talk-links">
     <a href="/assets/talks/Differential_privacy.pdf" target="_blank">Slides</a>
