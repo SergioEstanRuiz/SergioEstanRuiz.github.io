@@ -4,7 +4,6 @@ title: "Research & Projects"
 permalink: /projects/
 ---
 
-
 ## Papers
 
 <div class="stack-list">
@@ -12,7 +11,9 @@ permalink: /projects/
     <h3 class="card-title">Grokking as a Phase Transition between Competing Basins: a Singular Learning Theory Approach</h3>
     <p class="card-meta">Sergio Estan Ruiz, 2026</p>
     <p>
-      This paper tries to analyse the phenomenon of grokking through the lens of Singular Learning Theory. Specifically, we frame grokking as the phase transition between near-zero-loss basins with a different geometry.  
+      This paper analyzes grokking through the lens of Singular Learning Theory.
+      In particular, it frames grokking as a phase transition between near-zero-loss
+      basins with different geometry.
     </p>
     <div class="chip-row">
       <span class="chip">Paper</span>
@@ -34,7 +35,8 @@ permalink: /projects/
     <h3 class="card-title">PyTorch Experimentation</h3>
     <p class="card-meta">Open-source experimentation repository</p>
     <p>
-      A repo containing different notebooks in which I explore pytorch based models. They are self-explanatory and has the aim of teaching you from basic linear models up to more advanced RAG models. 
+      A repository of notebooks where I explore PyTorch-based models, from linear
+      baselines to more advanced RAG-oriented models.
     </p>
     <div class="chip-row">
       <span class="chip">Project</span>
@@ -63,4 +65,27 @@ permalink: /projects/
     </div>
   </article>
 
-
+  <article class="stack-card">
+    <h3 class="card-title">RL x LLM Reading Club (Imperial College London)</h3>
+    <p>
+      I am setting up a bi-weekly reading club with a friend at Imperial to explore
+      reinforcement learning and large language models, from core concepts (MDPs,
+      policy gradients, value functions, transformers, pretraining, scaling laws)
+      to current topics such as RLHF, reasoning, and planning.
+    </p>
+    <p>
+      The format is discussion-oriented and shaped by participant interests.
+      Researchers and students with a basic ML background are welcome.
+      Room, date, and time are currently TBD.
+    </p>
+    <div class="chip-row">
+      <span class="chip status">In Progress</span>
+      <span class="chip light">reading clib</span>
+      <span class="chip light">RL</span>
+      <span class="chip light">LLMs</span>
+    </div>
+    <div class="link-row">
+      <a href="https://docs.google.com/forms/d/1c9ijdly0IALRb69Y4vqT7LPcMDCPD8DIu-tzFLz3MuM/edit" target="_blank" rel="noopener">Propose topics / express interest</a>
+    </div>
+  </article>
+</div>
