@@ -9,15 +9,15 @@ permalink: /projects/
 
 <div class="stack-list">
   <article class="stack-card">
-    <h3 class="card-title">Geometric Phase Transitions in Learning Dynamics</h3>
+    <h3 class="card-title">Grokking as a Phase Transition between Competing Basins: a Singular Learning Theory Approach</h3>
     <p class="card-meta">Sergio Estan Ruiz, 2026</p>
     <p>
-      A first research output focused on geometric perspectives for phase transitions
-      in training dynamics.
+      This paper tries to analyse the phenomenon of grokking through the lens of Singular Learning Theory. Specifically, we frame grokking as the phase transition between near-zero-loss basins with a different geometry.  
     </p>
     <div class="chip-row">
       <span class="chip">Paper</span>
       <span class="chip light">Geometry</span>
+      <span class="chip light">Interpretability</span>
       <span class="chip light">Learning Theory</span>
     </div>
     <div class="link-row">
@@ -34,8 +34,7 @@ permalink: /projects/
     <h3 class="card-title">PyTorch Experimentation</h3>
     <p class="card-meta">Open-source experimentation repository</p>
     <p>
-      A working space for model experiments, implementation tests, and reproducible
-      ML prototypes.
+      A repo containing different notebooks in which I explore pytorch based models. They are self-explanatory and has the aim of teaching you from basic linear models up to more advanced RAG models. 
     </p>
     <div class="chip-row">
       <span class="chip">Project</span>
@@ -63,19 +62,5 @@ permalink: /projects/
       <span class="chip light">Networks</span>
     </div>
   </article>
-
-  <article class="stack-card">
-    <h3 class="card-title">Singular Learning Theory and Grokking</h3>
-    <p>
-      Ongoing work on using singular learning theory to analyze grokking through a
-      Bayesian lens.
-    </p>
-    <div class="chip-row">
-      <span class="chip status">In Progress</span>
-      <span class="chip light">Theory</span>
-      <span class="chip light">Bayesian Asymptotics</span>
-    </div>
-  </article>
-</div>
 
 
