@@ -7,13 +7,10 @@ permalink: /
 <p class="lede">
   I am Sergio Estan Ruiz, a PhD student in Statistics at Imperial College London.
   My work sits at the intersection of time series modelling, machine learning, and
-  public policy.
-</p>
-
-<p class="intro-note">
-  I am always happy to discuss mathematics, machine learning, economics, and
+  public policy. Recently I have been getting interested in interpretability, alignment and safety, specially through the lens of singular learning theory. I am always happy to discuss mathematics, machine learning, economics, and
   adjacent topics.
 </p>
+
 
 ## Research Focus
 
@@ -35,15 +32,13 @@ permalink: /
   <div class="feature-card">
     <h3 class="card-title">Singular Learning Theory</h3>
     <p>
-      Studying training dynamics and model behaviour through Bayesian asymptotics,
-      especially for overparameterized systems.
+      Looking at topics in interpretability, alignment and safety through the lens of SLT. 
     </p>
   </div>
   <div class="feature-card">
     <h3 class="card-title">Geometry and Topology in ML</h3>
     <p>
-      Interested in geometric and topological tools for representation learning and
-      model diagnostics.
+      Interested in topological data analysis as well as other techniques rooted in geometry and topology.
     </p>
   </div>
 </div>

@@ -49,18 +49,20 @@ a {
   position: fixed;
   inset: 0 auto 0 0;
   width: var(--sidebar-width);
+  height: 100vh;
   padding: 28px 22px;
   background:
     linear-gradient(150deg, #102539, #0f324f 65%, #0a4255);
   color: #f3f8ff;
   border-right: 1px solid rgba(255, 255, 255, 0.08);
-  overflow-y: auto;
+  overflow: hidden;
 }
 
 .sidebar-inner {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  height: 100%;
 }
 
 .sidebar-avatar {
@@ -129,6 +131,13 @@ a {
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+.sidebar-divider {
+  width: 100%;
+  border: 0;
+  border-top: 1px solid rgba(232, 248, 255, 0.2);
+  margin: 10px 0 2px;
 }
 
 .nav-link {
@@ -445,9 +454,11 @@ a {
   .sidebar {
     position: relative;
     width: auto;
+    height: auto;
     inset: auto;
     border-right: 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    overflow: visible;
   }
 
   .main-content {

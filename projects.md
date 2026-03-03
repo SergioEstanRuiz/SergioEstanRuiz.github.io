@@ -4,9 +4,6 @@ title: "Research & Projects"
 permalink: /projects/
 ---
 
-<p class="lede">
-  This page combines formal research outputs and code-driven projects.
-</p>
 
 ## Papers
 
@@ -81,8 +78,4 @@ permalink: /projects/
   </article>
 </div>
 
-<div class="callout">
-  Suggested format for future updates: keep each ongoing item to one card with a
-  short summary and one status chip (for example, <strong>In Progress</strong>,
-  <strong>Drafting</strong>, or <strong>On Hold</strong>).
-</div>
+
