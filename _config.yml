@@ -1,23 +1,23 @@
-﻿title: "Sergio Estan Ruiz"
-description: "PhD student in Statistics & ML for Public Policy"
+title: "Sergio Estan Ruiz"
+description: "PhD student in Statistics and ML for Public Policy"
 url: "https://SergioEstanRuiz.github.io"
-baseurl: ""   # for user/organisation sites this stays empty
+baseurl: ""
 
-theme: minima  # simplest option; you can customise later
+theme: minima
 
-# Which pages appear in the top navigation (minima uses this)
 header_pages:
-  # - research.md
+  - index.md
   - projects.md
-  - talks.md
   - teaching.md
-  - uned.md
+  - talks.md
   - blog.md
-
+  - uned.md
 
 markdown: kramdown
 
-# Optional: basic info
 author:
   name: "Sergio Estan Ruiz"
   email: "s.estan-ruiz24@imperial.ac.uk"
+
+github_username: "SergioEstanRuiz"
+linkedin_url: "https://uk.linkedin.com/in/sergio-esta%C3%B1-ruiz-870347221"

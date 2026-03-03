@@ -4,145 +4,65 @@ title: "Talks"
 permalink: /talks/
 ---
 
-<style>
-.talks-intro {
-  max-width: 720px;
-  margin-bottom: 1.5rem;
-  font-size: 0.98rem;
-  line-height: 1.6;
-}
+<p class="lede">
+  A selected list of talks and presentations at workshops, conferences, and reading
+  groups.
+</p>
 
-.talk-year {
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  font-size: 1.3rem;
-  font-weight: 700;
-  border-bottom: 1px solid #e0e0e0;
-  padding-bottom: 0.25rem;
-}
-
-.talk-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.talk-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  padding: 12px 16px;
-  background: #fafafa;
-  transition: background 0.15s ease-in-out, box-shadow 0.15s ease-in-out, transform 0.1s ease-in-out;
-}
-
-.talk-card:hover {
-  background: #ffffff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
-  transform: translateY(-2px);
-}
-
-.talk-title {
-  font-weight: 600;
-  font-size: 1.05rem;
-  margin-bottom: 0.15rem;
-}
-
-.talk-meta {
-  font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 0.35rem;
-}
-
-.talk-description {
-  font-size: 0.9rem;
-  margin-bottom: 0.35rem;
-}
-
-.talk-links {
-  font-size: 0.85rem;
-}
-
-.talk-links a {
-  text-decoration: none;
-  border-bottom: 1px dotted #999;
-}
-
-.talk-links a:hover {
-  border-bottom-style: solid;
-}
-</style>
-
-<div class="talks-intro">
-  A non-exhaustive selection of talks I have given at workshops and conferences I have given.
+<div class="stack-list">
+  <section class="year-block">
+    <h3>2025</h3>
+    <ul class="talk-items">
+      <li class="talk-item">
+        <p><strong>Advanced composition theorems in Differential Privacy</strong></p>
+        <p class="card-meta">Reading Club, Online, November 2025</p>
+        <p>
+          Two talks on composition theorems for differentially private mechanisms and
+          the Sparse Vector Technique (joint presentation with Dr. Leoni Carla Wirth).
+        </p>
+        <p class="link-row">
+          <a href="/assets/talks/Differential_privacy.pdf" target="_blank" rel="noopener">Slides</a>
+        </p>
+      </li>
+      <li class="talk-item">
+        <p><strong>Using deep learning to infer graph structures in multivariate time series</strong></p>
+        <p class="card-meta">NeST Annual Meeting, University of Bath, October 2025</p>
+        <p>
+          Attention-based models for latent graph inference and improved downstream
+          forecasts in graph-based time series models.
+        </p>
+      </li>
+      <li class="talk-item">
+        <p><strong>Genetic algorithms for graph selection in graph-based time series models</strong></p>
+        <p class="card-meta">Research Students Conference in Probability and Statistics, University of Glasgow, August 2025</p>
+        <p>
+          A method for graph selection via genetic algorithms and its impact on
+          predictive performance.
+        </p>
+      </li>
+      <li class="talk-item">
+        <p><strong>Macroeconomic forecasting with graph-based time series models</strong></p>
+        <p class="card-meta">Sunbelt Conference, Sorbonne, Paris, June 2025</p>
+        <p>
+          Poster presentation on genetic variants of the RaGNAR model for unemployment
+          forecasting.
+        </p>
+      </li>
+      <li class="talk-item">
+        <p><strong>Research directions in asymptotics of processes on graphs</strong></p>
+        <p class="card-meta">Random Networks Workshop, University of Sheffield, March 2025</p>
+        <p>
+          Discussion of possible research directions on asymptotic behavior of discrete
+          stochastic processes on graphs.
+        </p>
+      </li>
+      <li class="talk-item">
+        <p><strong>Macroeconomic forecasting with graph-based time series models</strong></p>
+        <p class="card-meta">IMSSRS, Online, April 2025</p>
+        <p>
+          Generalised Network Autoregressive approaches for macroeconomic forecasting.
+        </p>
+      </li>
+    </ul>
+  </section>
 </div>
-
-<!-- ===== 2025 ===== -->
-<div class="talk-year">2025</div>
-<div class="talk-list">
-
-  <div class="talk-card">
-    <div class="talk-title">Advanced composition theorems in Differential Privacy</div>
-    <div class="talk-meta">
-      Reading Club · Online · UK-based · November 2025
-    </div>
-    <p class="talk-description">
-    
-      I presented two times in <a href="https://www.stats.ox.ac.uk/~reinert/">Professor Gesine's</a> reading club on Differential Privacy. I talked about types of composition theorems of differentially private mechanisms, and about the Sparse Vector Technique. The presentation below was done with <a href="https://www.leonicarlawirth.org/">Dr. Leoni Carla Wirth</a>.
-    </p>
-    <div class="talk-links">
-    <a href="/assets/talks/Differential_privacy.pdf" target="_blank">Slides</a>
-    </div>
-  </div>
-
-  <div class="talk-card">
-    <div class="talk-title">Using deep learning to infer graph structures in multivariate time series</div>
-    <div class="talk-meta">
-      NeST Annual Meeting · Bath University · Bath, UK · October 2025
-    </div>
-    <p class="talk-description">
-      I gave a talk about how to apply models based on the attention mechanism to infer latent graph structures of multivariate time series data and how to use to improve forecasts made by graph-based models. 
-    </p>
-  </div>
-
-  <div class="talk-card">
-    <div class="talk-title">Genetic algorithms for graph selection in graph-based time series models</div>
-    <div class="talk-meta">
-     Research Students’ Conference in Probability and Statistics · University of Glasgow · Glasgow, UK · August 2025
-    </div>
-    <p class="talk-description">
-      I gave a talk about how to apply a genetic algorithm to select graphs for graph-based time series models, and how this can improve downstream forecasting.
-    </p>
-  </div>
-
-  <div class="talk-card">
-    <div class="talk-title">Macroeconomic forecasting with graph-based time series models</div>
-    <div class="talk-meta">
-      Sunbelt Conference · Sorbonne · Paris, France · June 2025
-    </div>
-    <p class="talk-description">
-      I presented a poster on genetic variants of the RaGNAR model for unemployment forecasting.
-    </p>
-  </div>
-
-  <div class="talk-card">
-    <div class="talk-title">Research directions in asymptotics of processes on graphs</div>
-    <div class="talk-meta">
-      Random Networks Workshop · University of Sheffield · Sheffield, UK · March 2025
-    </div>
-    <p class="talk-description">
-      I briefly discussed some possible research directions concerning asymptotic probabilistic results of discrete processes on graphs. 
-    </p>
-  </div>
-
-  <div class="talk-card">
-    <div class="talk-title">Macroeconomic forecasting with graph-based time series models</div>
-    <div class="talk-meta">
-      IMSSRS · Online · World-wide · April 2025
-    </div>
-    <p class="talk-description">
-      I gave a talk at the International Mathematics and Statistics Student Research Symposium on Generalised Network Autoregressive models for macroeconomic forecasting. 
-    </p>
-  </div>
-
-</div>
-

@@ -1,37 +1,70 @@
-﻿---
+---
 layout: page
-title: "Home"
+title: "About Me"
+permalink: /
 ---
 
-<style>
-.hero {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
+<p class="lede">
+  I am Sergio Estan Ruiz, a PhD student in Statistics at Imperial College London.
+  My work sits at the intersection of time series modelling, machine learning, and
+  public policy.
+</p>
 
-.profile-pic {
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-</style>
+<p class="intro-note">
+  I am always happy to discuss mathematics, machine learning, economics, and
+  adjacent topics.
+</p>
 
-<div class="hero">
-  <img src="/assets/profile_pic.jpg" alt="Profile picture" class="profile-pic">
-  <div>
-    <p>Hi, I'm Sergio Estan Ruiz and I am a PhD student in Statistics at Imperial College London. I work on time series modelling and machine learning for public policy, with a focus on multivariate/network time series and macroeconomic applications.</p>
-    <p>I am also interested in singular learning theory as a tool to understanding model training through a Bayesian framework. On top of this, I have played around with topological data analysis in the past and have an interest in geometric/topological tools in machine learning.</p>
-    <p>As a whole, I am pretty much interested in learning anything! I'm always happy to talk about maths, machine learning, economics and more!</p>
+## Research Focus
+
+<div class="section-grid columns-2">
+  <div class="feature-card">
+    <h3 class="card-title">Time Series and Networks</h3>
+    <p>
+      Developing graph-aware approaches for multivariate time series, with a focus
+      on macroeconomic forecasting and interpretable structure learning.
+    </p>
+  </div>
+  <div class="feature-card">
+    <h3 class="card-title">Machine Learning for Public Policy</h3>
+    <p>
+      Applying modern statistical and machine learning tools to policy-relevant data
+      questions where uncertainty and robustness matter.
+    </p>
+  </div>
+  <div class="feature-card">
+    <h3 class="card-title">Singular Learning Theory</h3>
+    <p>
+      Studying training dynamics and model behaviour through Bayesian asymptotics,
+      especially for overparameterized systems.
+    </p>
+  </div>
+  <div class="feature-card">
+    <h3 class="card-title">Geometry and Topology in ML</h3>
+    <p>
+      Interested in geometric and topological tools for representation learning and
+      model diagnostics.
+    </p>
   </div>
 </div>
 
 ## Education
 
-- **Imperial College London** — PhD in Statistics and Machine Learning for Public Policy (Sept 2024 – present)
-- **University of Cambridge** — MASt in Mathematics (Part III) (Sept 2022 – July 2023)  
-- **University of Warwick** — BSc in Mathematics (Sept 2019 – July 2022)  
-- **Universidad Nacional de Educación a Distancia (UNED)** — BSc in Economics (Sept 2022 – present)  
+<ul class="timeline-list">
+  <li>
+    <span class="timeline-title">Imperial College London</span>
+    <span class="timeline-meta">PhD in Statistics and Machine Learning for Public Policy, Sept 2024 - Present</span>
+  </li>
+  <li>
+    <span class="timeline-title">University of Cambridge</span>
+    <span class="timeline-meta">MASt in Mathematics (Part III), Sept 2022 - July 2023</span>
+  </li>
+  <li>
+    <span class="timeline-title">University of Warwick</span>
+    <span class="timeline-meta">BSc in Mathematics, Sept 2019 - July 2022</span>
+  </li>
+  <li>
+    <span class="timeline-title">UNED (Universidad Nacional de Educacion a Distancia)</span>
+    <span class="timeline-meta">BSc in Economics, Sept 2022 - Present</span>
+  </li>
+</ul>
