@@ -68,15 +68,14 @@ permalink: /projects/
   <article class="stack-card">
     <h3 class="card-title">RL x LLM Reading Club (Imperial College London)</h3>
     <p>
-      I am setting up a bi-weekly reading club with a friend at Imperial to explore
-      reinforcement learning and large language models, from core concepts (MDPs,
-      policy gradients, value functions, transformers, pretraining, scaling laws)
-      to current topics such as RLHF, reasoning, and planning.
+      I am setting up a bi-weekly reading club with Paul Lezeau at Imperial to explore
+      reinforcement learning and large language models, from core concepts (RLHF, transformer architecture and variants, LLM egineering, etc)
+      to current topics such as reasoning and planning.
     </p>
     <p>
       The format is discussion-oriented and shaped by participant interests.
       Researchers and students with a basic ML background are welcome.
-      Room, date, and time are currently TBD.
+      Email me if you are interested in joining!
     </p>
     <div class="chip-row">
       <span class="chip status">In Progress</span>
@@ -85,7 +84,7 @@ permalink: /projects/
       <span class="chip light">LLMs</span>
     </div>
     <div class="link-row">
-      <a href="https://docs.google.com/forms/d/1c9ijdly0IALRb69Y4vqT7LPcMDCPD8DIu-tzFLz3MuM/edit" target="_blank" rel="noopener">Propose topics / express interest</a>
+      <a href="https://docs.google.com/forms/d/1c9ijdly0IALRb69Y4vqT7LPcMDCPD8DIu-tzFLz3MuM/edit" target="_blank" rel="noopener">Propose topics here! </a>
     </div>
   </article>
 </div>
