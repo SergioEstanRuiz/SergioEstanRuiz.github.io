@@ -79,7 +79,7 @@ permalink: /projects/
     </p>
     <div class="chip-row">
       <span class="chip status">In Progress</span>
-      <span class="chip light">reading clib</span>
+      <span class="chip light">Reading club</span>
       <span class="chip light">RL</span>
       <span class="chip light">LLMs</span>
     </div>

@@ -5,13 +5,13 @@ permalink: /teaching/
 ---
 
 <p class="lede">
-  I absolutely love teaching! I try to teach every year since it is an activity I thoroughly enjoy and I always end up learning a thing or two. 
+  I love teaching! I try to teach every year since it is an activity I thoroughly enjoy and I always end up learning a thing or two. 
 </p>
 
 
 ## Imperial College London
 
-<div class="stack-list">
+<div class="stack-list teaching-grid">
     <article class="teaching-card">
     <h3 class="card-title">Deep Learning</h3>
     <p class="card-meta">2026</p>
@@ -40,7 +40,7 @@ permalink: /teaching/
 
 ## University of Cambridge
 
-<div class="stack-list">
+<div class="stack-list teaching-grid">
   <article class="teaching-card">
     <h3 class="card-title">Variational Principles 1B</h3>
     <p class="card-meta">2023</p>
