@@ -47,6 +47,23 @@ permalink: /projects/
       <a href="https://github.com/SergioEstanRuiz/PyTorch-experimentation" target="_blank" rel="noopener">GitHub Repository</a>
     </div>
   </article>
+
+  <article class="stack-card">
+    <h3 class="card-title">Part III Essay: Topological Data Analysis</h3>
+    <p class="card-meta">Part III essay</p>
+    <p>
+      A Part III essay on topological data analysis, covering core ideas and methods
+      from computational topology and their use in data analysis.
+    </p>
+    <div class="chip-row">
+      <span class="chip">Essay</span>
+      <span class="chip light">Topological Data Analysis</span>
+      <span class="chip light">Topology</span>
+    </div>
+    <div class="link-row">
+      <a href="{{ '/assets/Part III Essay- Topological Data Analysis.pdf' | relative_url }}" target="_blank" rel="noopener">Read Essay</a>
+    </div>
+  </article>
 </div>
 
 ## Current Work
