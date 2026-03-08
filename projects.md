@@ -9,7 +9,7 @@ permalink: /projects/
 <div class="stack-list">
   <article class="stack-card">
     <h3 class="card-title">Grokking as a Phase Transition between Competing Basins: a Singular Learning Theory Approach</h3>
-    <p class="card-meta">Sergio Estan Ruiz, 2026</p>
+    <p class="card-meta">Ben Cullen, Sergio Estan-Ruiz, Riya Danait, Jiayi Li. 2026</p>
     <p>
       This paper analyzes grokking through the lens of Singular Learning Theory.
       In particular, it frames grokking as a phase transition between near-zero-loss
