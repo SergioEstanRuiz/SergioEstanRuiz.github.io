@@ -7,8 +7,7 @@ permalink: /
 <p class="lede">
   I am Sergio Estan Ruiz, a PhD student in Statistics at Imperial College London.
   My work sits at the intersection of time series modelling, machine learning, and
-  public policy. Recently I have been getting interested in interpretability, alignment and safety, specially through the lens of singular learning theory. I am always happy to discuss mathematics, machine learning, economics, and
-  adjacent topics.
+  public policy. Recently I have been getting interested in interpretability, alignment and safety, specially through the lens of singular learning theory. I am always happy to discuss mathematics, machine learning, economics, and anything in between! Outside of work, I like cooking (making parmigianas is my secrete talent), going climbing and reading. 
 </p>
 
 
@@ -26,7 +25,7 @@ permalink: /
     <h3 class="card-title">Machine Learning for Public Policy</h3>
     <p>
       Applying modern statistical and machine learning tools to policy-relevant data
-      questions where uncertainty and robustness matter.
+      questions. 
     </p>
   </div>
   <div class="feature-card">
