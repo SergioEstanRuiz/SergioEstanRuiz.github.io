@@ -102,6 +102,7 @@ permalink: /projects/
     </div>
     <div class="link-row">
       <a href="https://docs.google.com/forms/d/1c9ijdly0IALRb69Y4vqT7LPcMDCPD8DIu-tzFLz3MuM/edit" target="_blank" rel="noopener">Propose topics here! </a>
+      <a href="https://docs.google.com/spreadsheets/d/1hyClzTtPkt1mIkghWqhMcugUy4wpuKbsrvf1XL77KzU/edit?resourcekey=&gid=885810018#gid=885810018" target="_blank" rel="noopener">Tentative curriculum</a>
     </div>
   </article>
 </div>
