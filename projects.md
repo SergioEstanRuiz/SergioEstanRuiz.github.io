@@ -85,7 +85,7 @@ permalink: /projects/
   <article class="stack-card">
     <h3 class="card-title">RL x LLM Reading Club (Imperial College London)</h3>
     <p>
-      I am setting up a bi-weekly reading club with Paul Lezeau at Imperial to explore
+      I am setting up a bi-weekly reading club with <a href="https://sites.google.com/view/paul-lezeau/home" target="_blank" rel="noopener">Paul Lezeau</a> at Imperial to explore
       reinforcement learning and large language models, from core concepts (RLHF, transformer architecture and variants, LLM egineering, etc)
       to current topics such as reasoning and planning.
     </p>
