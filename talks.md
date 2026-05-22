@@ -19,6 +19,9 @@ permalink: /talks/
         <p>
           An introduction to the AI safety research landscape, covering topics like risk taxonomy, mitigation strategies and attacks.
         </p>
+        <p class="link-row">
+          <a href="/assets/talks/AI_Safety_Talk.pptx" target="_blank" rel="noopener">Slides</a>
+        </p>
       </li>
     </ul>
   </section>
