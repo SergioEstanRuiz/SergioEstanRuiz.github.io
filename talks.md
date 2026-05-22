@@ -15,7 +15,7 @@ permalink: /talks/
     <ul class="talk-items">
       <li class="talk-item">
         <p><strong>AI Safety Research</strong></p>
-        <p class="card-meta">Imperial LLM and RL seminar</p>
+        <p class="card-meta">Imperial LLM and RL seminar, Imperial College London, April 2026</p>
         <p>
           An introduction to the AI safety research landscape, covering topics like risk taxonomy, mitigation strategies and attacks.
         </p>
