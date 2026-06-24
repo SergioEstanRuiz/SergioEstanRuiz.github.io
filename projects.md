@@ -64,6 +64,22 @@ permalink: /projects/
       <a href="{{ '/assets/Part III Essay- Topological Data Analysis.pdf' | relative_url }}" target="_blank" rel="noopener">Read Essay</a>
     </div>
   </article>
+
+  <article class="stack-card">
+    <h3 class="card-title">Economics Bachelor Thesis: Modern Monetary Theory in Japan</h3>
+    <p class="card-meta">Economics Bachelor Thesis</p>
+    <p>
+      This thesis was part of the requirements for UNED's Bachelor Thesis in Economics. It studies whether Japan serves as a good example of a state which has applied the doctrines of Modern Monetary Theory (MMT). Throughout it, we look at the basic precepts of MMT, the macroeconomic situation of Japan in the last decades and a brief history of its monetary and fiscal policies to answer the thesis' question. 
+    </p>
+    <div class="chip-row">
+      <span class="chip">Thesis</span>
+      <span class="chip light">Economics</span>
+      <span class="chip light">Monetary Policy</span>
+    </div>
+    <div class="link-row">
+      <a href="{{ '/assets/TFG_final.pdf' | relative_url }}" target="_blank" rel="noopener">Read Thesis</a>
+    </div>
+  </article>
 </div>
 
 ## Current Work

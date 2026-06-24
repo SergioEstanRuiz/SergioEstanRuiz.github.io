@@ -59,6 +59,6 @@ permalink: /
   </li>
   <li>
     <span class="timeline-title">UNED (Universidad Nacional de Educacion a Distancia)</span>
-    <span class="timeline-meta">BSc in Economics, Sept 2022 - Present</span>
+    <span class="timeline-meta">BSc in Economics, Sept 2022 - July 2026</span>
   </li>
 </ul>
