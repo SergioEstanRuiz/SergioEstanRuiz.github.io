@@ -14,6 +14,16 @@ permalink: /talks/
     <h3>2026</h3>
     <ul class="talk-items">
       <li class="talk-item">
+        <p><strong>An Introduction to Mechanistic Interpretability</strong></p>
+        <p class="card-meta">Imperial LLM and RL seminar, Imperial College London, June 2026</p>
+        <p>
+          A brief history of mechanistic interpretability, from early vision models to recent work made by Anthropic..
+        </p>
+        <p class="link-row">
+          <a href="/assets/talks/Intro_to_Mechanistic_Interpretability.pptx" target="_blank" rel="noopener">Slides</a>
+        </p>
+      </li>
+      <li class="talk-item">
         <p><strong>AI Safety Research</strong></p>
         <p class="card-meta">Imperial LLM and RL seminar, Imperial College London, April 2026</p>
         <p>
