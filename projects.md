@@ -8,7 +8,7 @@ permalink: /projects/
 
 <div class="stack-list">
   <article class="stack-card">
-    <h3 class="card-title">Grokking as a Phase Transition between Competing Basins: a Singular Learning Theory Approach</h3>
+    <h3 class="card-title">A Basin-Selection Perspective on Grokking via Singular Learning Theory </h3>
     <p class="card-meta">Ben Cullen, Sergio Estan-Ruiz, Riya Danait, Jiayi Li. 2026</p>
     <p>
       This paper analyses grokking through the lens of Singular Learning Theory.
@@ -26,9 +26,28 @@ permalink: /projects/
       <a href="https://github.com/SergioEstanRuiz/geom_phase_transitions" target="_blank" rel="noopener">GitHub Repository</a>
     </div>
   </article>
+
+  <article class="stack-card">
+    <h3 class="card-title">GenGNAR: Genetic Graph Search for GNAR Models
+with Applications to Inflation Forecasting</h3>
+    <p class="card-meta">Sergio Estan-Ruiz, Guy Nason. 2026</p>
+    <p>
+      The paper looks at genetic algorithms for graph selection in Generalised Network Autoregressive models; and applies the resulting algorithm to UK inflation forecasting. 
+    </p>
+    <div class="chip-row">
+      <span class="chip">Paper</span>
+      <span class="chip light">Network Time Series</span>
+      <span class="chip light">Economics</span>
+      <span class="chip light">Public Policy</span>
+    </div>
+    <div class="link-row">
+      <a href="https://spiral.imperial.ac.uk/server/api/core/bitstreams/8d1fccc2-1fae-42a7-8249-2f54c2b05acd/content" target="_blank" rel="noopener">Pre-print</a>
+      <a href="https://github.com/SergioEstanRuiz/genetic-python" target="_blank" rel="noopener">GitHub Repository</a>
+    </div>
+  </article>
 </div>
 
-## Projects
+## Miscellaneous work
 
 <div class="stack-list">
   <article class="stack-card">
@@ -82,21 +101,9 @@ permalink: /projects/
   </article>
 </div>
 
-## Current Work
+## Other Projects
 
 <div class="stack-list">
-  <article class="stack-card">
-    <h3 class="card-title">Graph-Based Macroeconomic Forecasting</h3>
-    <p>
-      Extending GNAR-style methods and graph selection procedures for macroeconomic
-      forecasting tasks.
-    </p>
-    <div class="chip-row">
-      <span class="chip status">In Progress</span>
-      <span class="chip light">Time Series</span>
-      <span class="chip light">Networks</span>
-    </div>
-  </article>
 
   <article class="stack-card">
     <h3 class="card-title">RL x LLM Reading Club (Imperial College London)</h3>
