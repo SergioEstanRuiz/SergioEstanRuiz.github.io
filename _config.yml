@@ -10,7 +10,6 @@ header_pages:
   - projects.md
   - teaching.md
   - talks.md
-  - blog.md
   - uned.md
 
 markdown: kramdown
