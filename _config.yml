@@ -12,6 +12,10 @@ header_pages:
   - talks.md
   - uned.md
 
+exclude:
+  - blog.md
+  - _posts
+
 markdown: kramdown
 
 author:
