@@ -1,59 +1,44 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-      {% if page.title %}{{ page.title | escape }} | {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}
-    </title>
-    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}" />
-    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}" />
-    <link rel="icon" type="image/png" href="{{ '/assets/profile_pic.jpeg' | relative_url }}" />
-  </head>
-  <body>
-    <div class="site-shell">
-      <aside class="sidebar">
-        <div class="sidebar-inner">
-          <img
-            src="{{ '/assets/profile_pic.jpeg' | relative_url }}"
-            alt="Portrait of Sergio Estan Ruiz"
-            class="sidebar-avatar"
-          />
-          <h1 class="sidebar-name">{{ site.author.name }}</h1>
-          <p class="sidebar-role">{{ site.description }}</p>
-          <p class="sidebar-location">Imperial College London</p>
-
-          <nav class="sidebar-nav" aria-label="Main navigation">
-            {% assign nav_pages = site.header_pages | default: empty %}
-            {% for path in nav_pages %}
-              {% assign my_page = site.pages | where: "path", path | first %}
-              {% if my_page.title %}
-                <a
-                  href="{{ my_page.url | relative_url }}"
-                  class="nav-link{% if page.url == my_page.url %} active{% endif %}"
-                >
-                  {{ my_page.title }}
-                </a>
-              {% endif %}
-            {% endfor %}
-          </nav>
-
-          <div class="sidebar-links">
-            <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
-            <a href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="mailto:{{ site.author.email }}">Email</a>
-          </div>
-
-          <a class="cv-button" href="{{ '/assets/CV__Sergio_Estan_Ruiz.pdf' | relative_url }}" target="_blank" rel="noopener">
-            View CV
-          </a>
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description | escape }}">
+  <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <aside class="profile">
+      <div class="identity">
+        <div class="portrait">
+          <img src="{{ '/assets/profile_pic.jpeg' | relative_url }}" alt="{{ site.author.name }} at a chalkboard" width="2909" height="1650">
         </div>
-      </aside>
-
-      <main class="main-content">
-        {{ content }}
-      </main>
-    </div>
-  </body>
+        <div>
+          <p class="profile-name">{{ site.author.name }}</p>
+          <p class="profile-role">PhD student in Statistics</p>
+          <p class="profile-role">Imperial College London</p>
+        </div>
+      </div>
+      <nav class="tabs" aria-label="Main navigation">
+        {% for path in site.header_pages %}
+          {% assign tab = site.pages | where: "path", path | first %}
+          {% if tab.title %}
+            <a href="{{ tab.url | relative_url }}"{% if tab.url == page.url %} aria-current="page"{% endif %}>{{ tab.nav_title | default: tab.title | escape }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+      <div class="profile-links">
+        <a href="{{ '/assets/CV__Sergio_Estan_Ruiz.pdf' | relative_url }}" target="_blank" rel="noopener">CV <span class="file-type">PDF</span></a>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">GitHub</a>
+        <a href="{{ site.linkedin_url }}" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:{{ site.author.email }}">Email</a>
+      </div>
+    </aside>
+    <main id="main" class="main-content">
+      {{ content }}
+    </main>
+  </div>
+</body>
 </html>

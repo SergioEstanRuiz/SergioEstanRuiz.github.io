@@ -10,37 +10,22 @@ permalink: /
   I am always happy to discuss mathematics, machine learning, economics, and anything in between! Outside of work, I like cooking (making parmigianas is my secret talent), going climbing and reading. 
 </p>
 
+## Research interests
 
-## Research Focus
-
-<div class="section-grid columns-2">
-  <div class="feature-card">
-    <h3 class="card-title">Time Series and Networks</h3>
-    <p>
-      Developing graph-aware approaches for multivariate time series, with a focus
-      on macroeconomic forecasting and interpretable structure learning.
-    </p>
+<dl class="research-interests">
+  <div>
+    <dt>Science of deep learning</dt>
+    <dd>How and why do deep models generalise? What representations do they learn, and how do those representations form? I approach these questions through theory, especially singular learning theory, and through empirical work on representation learning and mechanistic interpretability in large language models.</dd>
   </div>
-  <div class="feature-card">
-    <h3 class="card-title">Machine Learning for Public Policy</h3>
-    <p>
-      Applying modern statistical and machine learning tools to policy-relevant data
-      questions. 
-    </p>
+  <div>
+    <dt>AI safety and technical alignment</dt>
+    <dd>I’m interested in how to evaluate and improve the alignment of AI systems, and how evidence about model behaviour can inform public policy.</dd>
   </div>
-  <div class="feature-card">
-    <h3 class="card-title">Singular Learning Theory</h3>
-    <p>
-      Looking at topics in interpretability, alignment and safety through the lens of SLT. 
-    </p>
+  <div>
+    <dt>Time series</dt>
+    <dd>My previous work used graph-based models for multivariate time series and macroeconomic forecasting. I’m also interested in foundation models for time series.</dd>
   </div>
-  <div class="feature-card">
-    <h3 class="card-title">Geometry and Topology in ML</h3>
-    <p>
-      Interested in topological data analysis as well as other techniques rooted in geometry and topology.
-    </p>
-  </div>
-</div>
+</dl>
 
 ## Education
 

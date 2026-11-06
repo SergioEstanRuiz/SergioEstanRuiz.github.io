@@ -1,13 +1,17 @@
 ---
 layout: page
-title: "Talks"
+title: "Talks & Reading Groups"
+nav_title: "Talks"
 permalink: /talks/
 ---
 
-<p class="lede">
-  A selected list of talks and presentations at workshops, conferences, and reading
-  groups.
-</p>
+## RL × LLM reading group
+
+<p class="card-meta">Imperial College London · Spring and summer 2026</p>
+
+I co-organised this fortnightly reading group with [Paul Lezeau](https://sites.google.com/view/paul-lezeau/home). We discussed papers on reinforcement learning and large language models, from RLHF and transformer architectures to reasoning and planning.
+
+## Selected talks
 
 <div class="stack-list">
   <section class="year-block">
@@ -17,10 +21,10 @@ permalink: /talks/
         <p><strong>An Introduction to Mechanistic Interpretability</strong></p>
         <p class="card-meta">Imperial LLM and RL seminar, Imperial College London, June 2026</p>
         <p>
-          A brief history of mechanistic interpretability, from early vision models to recent work made by Anthropic..
+          A brief history of mechanistic interpretability, from early vision models to recent work at Anthropic.
         </p>
         <p class="link-row">
-          <a href="/assets/talks/Intro_to_Mechanistic_Interpretability.pptx" target="_blank" rel="noopener">Slides</a>
+          <a href="{{ '/assets/talks/Intro_to_Mechanistic_Interpretability.pptx' | relative_url }}" target="_blank" rel="noopener">Slides</a>
         </p>
       </li>
       <li class="talk-item">
@@ -30,7 +34,7 @@ permalink: /talks/
           An introduction to the AI safety research landscape, covering topics like risk taxonomy, mitigation strategies and attacks.
         </p>
         <p class="link-row">
-          <a href="/assets/talks/AI_Safety_Talk.pptx" target="_blank" rel="noopener">Slides</a>
+          <a href="{{ '/assets/talks/AI_Safety_Talk.pptx' | relative_url }}" target="_blank" rel="noopener">Slides</a>
         </p>
       </li>
     </ul>
@@ -46,7 +50,7 @@ permalink: /talks/
           the Sparse Vector Technique (joint presentation with Dr. Leoni Carla Wirth).
         </p>
         <p class="link-row">
-          <a href="/assets/talks/Differential_privacy.pdf" target="_blank" rel="noopener">Slides</a>
+          <a href="{{ '/assets/talks/Differential_privacy.pdf' | relative_url }}" target="_blank" rel="noopener">Slides</a>
         </p>
       </li>
       <li class="talk-item">
